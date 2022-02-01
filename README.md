@@ -6,12 +6,12 @@ This Virtual Private Cloud is high-available, and if we add ec2 autoscaling grou
 
 Install [terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
-Then [install](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) and [configure](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) aws-cli to provide credentials to Terraform
+Then [install](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) and [configure](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) aws-cli to provide credentials to the Terraform
 
 ## Usage
 
 ```bash
 terraform init
-terraform apply
+terraform apply -auto-approve
 ```
 
